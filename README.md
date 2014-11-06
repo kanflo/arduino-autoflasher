@@ -25,7 +25,7 @@ Bonus: if using fswatch (https://github.com/emcrisostomo/fswatch) you can have t
 Dependencies
 ------------
 
-* flashclient.py is build on the exeptional Python Requests (http://python-requests.org)
+* flashclient.py is built on the exeptional Python Requests (http://python-requests.org)
 * flashserver-py needs Tornado (http://tornadoweb.org) and of course
 avrdude (http://nongnu.org/avrdude)
 * avr-reset.py uses the RPi.GPIO package (http://pypi.python.org/pypi/RPi.GPIO)
