@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# Copy to /usr/local/bin
+
+sudo avr-reset.py
