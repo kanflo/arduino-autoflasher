@@ -18,14 +18,14 @@ On your computer running the Arduino IDE:
 
 Host and port may be configured and a secret may be added that the client and server must agree on for flashing to start.
 
-Bonus: if using fswatch (github.com/emcrisostomo/fswatch) you can have the Arduino firmware automatically uploaded and flashed after building it in the IDE. eg.
+Bonus: if using fswatch (https://github.com/emcrisostomo/fswatch) you can have the Arduino firmware automatically uploaded and flashed after building it in the IDE. eg.
 
     % fswatch /var/folders/sk/0r9hjmx17r9_kls1zp3xddj00000gp/T/build3365321683727688908.tmp/MySketch.cpp.hex | xargs -n1 -J% ./flashclient.py  --host 172.16.3.124 %
 
 Dependencies
 ------------
 
-* flashclient.py is build on the exeptional Python Requests (python-requests.org)
-* flashserver-py needs Tornado (tornadoweb.org) and of course
-avrdude (nongnu.org/avrdude)
-* avr-reset.py uses the RPi.GPIO package (pypi.python.org/pypi/RPi.GPIO)
+* flashclient.py is build on the exeptional Python Requests (http://python-requests.org)
+* flashserver-py needs Tornado (http://tornadoweb.org) and of course
+avrdude (http://nongnu.org/avrdude)
+* avr-reset.py uses the RPi.GPIO package (http://pypi.python.org/pypi/RPi.GPIO)
